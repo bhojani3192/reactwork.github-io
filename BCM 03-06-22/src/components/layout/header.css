@@ -1,0 +1,57 @@
+/* 11-05-22 */
+header{
+    border-bottom: 2px solid #F0F0F1;
+    background: #fff;
+}
+.profile-detail h5{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.header-wraper{
+    height: 100px ;
+    padding: 0 126px !important;
+}
+.header-wraper .setting-icon,.header-wraper .notification-icon{
+    border-left:  2px solid #F0F0F1;
+    border-right:  2px solid #F0F0F1;
+    height: 100px;
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-wraper .setting-icon{
+    border-right: 0;
+}
+.user-profile{
+    margin-left: 26px;
+}
+.header-wraper .user-profile img{
+    max-width: 50px !important;
+}
+.header-wraper .user-profile .profile-detail span{
+  color: #3E66FB;
+  font-size: 14px;
+}
+.profile-detail{
+    width: 100px;
+}
+.header-wraper .user-profile .drop-down{
+    width: 20px;
+    margin-left: 26px;
+}
+.notification-icon a{
+    position: relative;
+}
+.notification-icon a::after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #3e66fb;
+    border-radius: 100%;
+    right: 0;
+}
+.home-wrapper{
+    max-width: 852px;
+}
